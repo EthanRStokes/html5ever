@@ -15,10 +15,10 @@ publish = false
 path = "lib.rs"
 
 [dependencies]
-html5ever = "0.37.1"
-markup5ever = { version = "0.37.1", features = ["serde"] }
+html5ever = "0.38.0"
+markup5ever = { version = "0.38.0", features = ["serde"] }
 tendril = "0.5.0"
-xml5ever = "0.37.1"
+xml5ever = "0.38.0"
 
 [dev-dependencies]
 env_logger = { workspace = true }
